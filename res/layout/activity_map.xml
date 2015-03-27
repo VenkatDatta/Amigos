@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+     <fragment
+		android:id="@+id/map"
+	  	android:layout_width="match_parent"
+	  	android:layout_height="match_parent"
+	  	class="com.google.android.gms.maps.SupportMapFragment"
+	  	/>
+ 
+ 	<!-- <com.google.android.maps.MapView
+ 	    android:id="@+id/mapsview"
+ 	    android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:enabled="true"
+        android:clickable="true"
+        android:apiKey="AIzaSyAP8PUgkQWAOgecYAq7fUY3r9eS4E4v9b0"
+        />
+ 	<LinearLayout 
+ 	    android:id="@+id/zoom" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true" 
+        android:layout_centerHorizontal="true" 
+        />  -->
+</RelativeLayout>
